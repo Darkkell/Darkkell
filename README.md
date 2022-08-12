@@ -4,30 +4,33 @@ A passionate *backend* developer.
 
 ```js
 
-import softwareDeveloper from 'floresfermin'
+const fermin = {
 
-class bio extends softwareDeveloper {
-    name = 'Fermín Flores';
-    location = 'Cuernavaca, Mor';
+    bio:{
+        name: 'Fermín Flores',
+        location: 'Cuernavaca, Mor'
+    },
+
+    code: ['javaScript', 'Java', 'PHP'],
+
+    technologies:{
+        mobile: ['NativeScript'],
+        frontEnd:{
+            js:['Angular', 'Vue'],
+            styles:['Bootstrap','vuetify']
+        },
+        backEnd:{
+            js:['node', 'express']
+        },
+        devOps:['AWS LightSail', 'Apache', 'Nginx'],
+        databases:['MySQL', 'MariaDB', 'Aurora', 'sqlite', 'MongoDB'],
+        orm:['Sequelize']
+    },
+
+    toLearn = {
+        devOps:['Docker', 'Kubernetes'],
+        dataAnalyst:['PostgreSQL', 'Python', 'Power BI', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn']
+    }
+
 }
-
-class skills extends softwareDeveloper {
-    code = ['javaScript', 'Java', 'PHP'];
-    databases = ['MySQL', 'MariaDB', 'Aurora', 'sqlite', 'MongoDB'];
-    framework = ['Angular', 'NativeScript', 'Vue'];
-    
-}
-
-class toLearn extends softwareDeveloper {
-    devOps = ['Docker', 'Kubernetes'];
-    dataAnalyst = ['PostgreSQL', 'Python', 'Power BI', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'];
-}
-
-I have experience on
-
-- Node.js
-- Express
-- Nginx
-- Apache
-- Sequelize
-- AWS (Lightsail - Aurora)
+```
