@@ -16,6 +16,7 @@ const fermin = {
     technologies:{
         mobile: ['NativeScript'],
         frontEnd:{
+            php: ['Laravel'],
             js:['Angular', 'Vue'],
             styles:['Bootstrap','vuetify']
         },
